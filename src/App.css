@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.lefond{
+  background-color: rgba(25, 23, 23, 0.758);
+}
+
+.filterRate{
+  display: flex;
+  justify-content: space-around;
+}
+.filter{
+  display: block;
+}
