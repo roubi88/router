@@ -4,7 +4,7 @@ import Rating from '../FilterMovieRate/Rating';
 import { Link } from 'react-router-dom';
 
 
-const MovieCard = ({movie}) => {
+const MovieCard = ({movie, isMoviListe}) => {
     return (
         <div>
     <Card style={{ width: '18rem', height:'55rem', margin:'6%', backgroundColor:"rgb(237, 237, 229)"}}>
@@ -18,11 +18,12 @@ const MovieCard = ({movie}) => {
         </Card.Text>
         <Link to={`/movie/${movie.id}`}>
 <br/>
-        <Button  style={{marginRight:'65%'}} variant="warning" >
+<Button  style={{marginRight:'65%'}} variant="warning" >
              Description </Button>
              </Link>
         </Card.Body>
     </Card>
+
         </div>
     );
 };

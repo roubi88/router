@@ -6,7 +6,7 @@ const Error = () => {
         <div>
             <center>
             <h3>Hoops vous faites erreur</h3>
-            <Button variant='warning' onClick={()=>window.location="/"}>Home</Button>
+            <Button variant='warning' onClick={()=>window.location="/"}>Back</Button>
             </center>
         </div>
     );

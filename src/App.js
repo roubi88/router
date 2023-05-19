@@ -11,6 +11,7 @@ function App() {
   const [inputSearch, setInputSearch] = useState('');
   const [rating, setRating] = useState(1)
 
+
   const add=(newMovie)=>{
     setmovies([...movies, newMovie]);
   }
